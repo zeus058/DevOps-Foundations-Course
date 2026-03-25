@@ -1,9 +1,10 @@
 # TODO-STEP 1: Define the Workflow Name
 # Uncomment the following line and replace <WORKFLOW_NAME> with a descriptive name. For example: Python CI/CD Pipeline
-name: Python CI/CD Pipeline
 
 # TODO-STEP 2: Define the Trigger Events
 # Uncomment the following lines to trigger the workflow on push and pull request events
+name: Python CI/CD Pipeline
+
 on:
   push:
     branches: [ "master" ]
